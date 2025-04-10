@@ -5,57 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chiman Sherwani | Cybersecurity Portfolio</title>
   <style>
+    :root {
+      --primary: #f2e8d6;
+      --accent: #c8b6a6;
+      --text: #2d2d2d;
+    }
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
+      background-color: var(--primary);
+      color: var(--text);
     }
     header {
-      background-color: #101820;
-      color: #fff;
-      padding: 40px 20px;
+      background-color: white;
+      color: var(--text);
+      padding: 60px 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5em;
+      font-size: 2.8em;
     }
     header p {
-      margin: 10px 0 0;
-      font-size: 1.2em;
+      margin-top: 10px;
+      font-size: 1.1em;
+      font-weight: 300;
     }
     section {
-      max-width: 800px;
-      margin: 40px auto;
+      max-width: 900px;
+      margin: 50px auto;
       padding: 0 20px;
     }
     h2 {
-      color: #101820;
+      color: var(--accent);
       border-bottom: 2px solid #ccc;
       padding-bottom: 5px;
+      margin-bottom: 20px;
     }
     ul {
       list-style: none;
       padding: 0;
     }
     ul li {
-      background: #fff;
+      background: white;
       margin: 10px 0;
       padding: 15px;
-      border-radius: 8px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+    }
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .tools span {
+      background: white;
+      padding: 10px 20px;
+      border-radius: 20px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-weight: 500;
     }
     footer {
       text-align: center;
-      padding: 20px;
-      background: #101820;
-      color: white;
+      padding: 40px 20px;
+      background: white;
+      color: var(--text);
     }
     a {
-      color: #4a90e2;
+      color: #5d5d5d;
       text-decoration: none;
+      font-weight: 500;
     }
     a:hover {
       text-decoration: underline;
@@ -65,42 +85,50 @@
 <body>
   <header>
     <h1>Chiman Sherwani</h1>
-    <p>Cybersecurity Enthusiast | Healthcare Management Grad | Future-Ready Professional</p>
+    <p>Cybersecurity Student • Creator of KurdishCravings • Tech + Food = Me</p>
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p>I’m a full-time student and mom of 3 transitioning into the field of cybersecurity with a background in healthcare management. I’m passionate about protecting digital systems and building a career that supports a secure, flexible, and fulfilling life.</p>
+    <p>I’m a full-time cybersecurity student and proud mom of three, transitioning from healthcare into tech. My background includes managing systems in healthcare, building a 50k+ community through my food page <strong>KurdishCravings</strong>, and diving into the cybersecurity world with hands-on projects and a hunger to protect and build.</p>
+    <!-- Add a profile photo here later -->
   </section>
 
   <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Network Security & Protocols</li>
-      <li>Security+ (Studying)</li>
-      <li>Threat Detection & Risk Analysis</li>
-      <li>Incident Response Basics</li>
-      <li>Healthcare Data Compliance (HIPAA)</li>
-    </ul>
+    <h2>My Favorite Tools</h2>
+    <div class="tools">
+      <span>TryHackMe</span>
+      <span>Salesforce</span>
+      <span>Canva</span>
+      <span>Trello</span>
+      <span>Jira</span>
+      <span>Arc Browser</span>
+      <span>Gamma</span>
+    </div>
   </section>
 
   <section>
     <h2>Sample Projects</h2>
     <ul>
-      <li><strong>Phishing Awareness Simulation:</strong> Built a mock phishing campaign to analyze employee responses and identify training gaps.</li>
-      <li><strong>Home Lab Network Setup:</strong> Created a secure home lab with virtual machines to simulate real-world attack and defense scenarios.</li>
-      <li><strong>Healthcare Privacy Risk Audit:</strong> Drafted a basic audit report to highlight key HIPAA vulnerabilities in patient data systems.</li>
+      <li><strong>Phishing Simulation:</strong> Created mock phishing emails to raise awareness and train non-tech users.</li>
+      <li><strong>SIEM Log Review:</strong> Used Splunk to monitor and investigate suspicious login attempts.</li>
+      <li><strong>Food-Data Blog:</strong> Used analytics to understand follower behavior on KurdishCravings and improved engagement strategy.</li>
     </ul>
+    <!-- You can add images of your projects here later -->
   </section>
 
   <section>
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:sherwanichiman2@gmail.com">sherwanichiman2@gmail.com</a><br />
-       LinkedIn: <a href="https://www.linkedin.com/in/chiman-sherwani" target="_blank">linkedin.com/in/chiman-sherwani</a></p>
+    <h2>Connect With Me</h2>
+    <p>Email: <a href="mailto:sherwanichiman2@gmail.com">sherwanichiman2@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/chiman-sherwani" target="_blank">linkedin.com/in/chiman-sherwani</a></p>
+    <p>Instagram (KurdishCravings): <a href="https://www.instagram.com/kurdishcravings" target="_blank">@kurdishcravings</a> (50k+)</p>
+    <p>TikTok: <a href="https://www.tiktok.com/@kurdishcravings" target="_blank">@kurdishcravings</a></p>
+    <p>YouTube: <a href="https://www.youtube.com/@kurdishcravings" target="_blank">@kurdishcravings</a></p>
+    <p>GitHub: <a href="https://github.com/csherwani1" target="_blank">github.com/csherwani1</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Chiman Sherwani | All rights reserved.</p>
+    <p>&copy; 2025 Chiman Sherwani | Designed with heart (and a little help from AI 🤖💛)</p>
   </footer>
 </body>
 </html>
